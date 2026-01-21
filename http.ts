@@ -1,6 +1,7 @@
 /***************************************************
  * ESP8266 MakeCode Library (NO DEBUG / NO LED)
  ***************************************************/
+
 namespace esp8266 {
     let esp8266Initialized = false
     let rxData = ""
