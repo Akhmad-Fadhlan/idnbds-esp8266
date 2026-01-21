@@ -1,13 +1,16 @@
 {
   "name": "idn-esp8266",
-  "version": "1.1.2",
-  "description": "ESP8266 Library for MakeCode with organized namespaces",
+  "version": "1.2.9",
+  "description": "IDN Library for ESP8266 with Firebase support",
   "license": "MIT",
   "dependencies": {
     "core": "*"
   },
   "files": [
+    "shims.d.ts",
     "main.ts",
+    "http.ts",
+    "firebase.ts",
     "README.md",
     "icon.png"
   ],
