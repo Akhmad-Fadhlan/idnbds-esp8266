@@ -230,7 +230,7 @@ namespace esp8266 {
         sendCommand(httpRequest, null, 100)
 
         // Wait for response
-        let response = getResponse("", 1500)
+        let response = getResponse("", 3000)
 
         // Close connection
         sendCommand("AT+CIPCLOSE", "OK", 500)
